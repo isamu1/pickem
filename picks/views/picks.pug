@@ -1,0 +1,91 @@
+extends layout
+
+mixin showGame(pick)
+  - var otherTeam = '';
+  - var chosenIsHome = true;
+  - var line = pick.line;
+  if pick.chosenTeam === pick.home
+    - otherTeam = pick.away;
+  else if pick.chosenTeam === pick.away
+    - otherTeam = pick.home;
+    - line = 0 - line;
+    - chosenIsHome = false;
+
+  if line > 0
+    - line = "+" + line
+
+  - var underdog = line > 0
+  - var choseScore = '-';
+  - var opponentScore = '-';
+  - var won = false;
+  - var lost = false;
+
+  if pick.game_over
+    if pick.chosenTeam === pick.home
+      - choseScore = pick.home_score;
+      - opponentScore = pick.away_score;
+    else
+      - choseScore = pick.away_score;
+      - opponentScore = pick.home_score;
+    - won = choseScore > opponentScore
+    - lost = !won
+    if won
+      if underdog
+        span.score.green +2
+      else
+        span.score.green +1
+    else
+      span.score.red 0
+  else
+      span.score - 
+
+
+  +homeSymbol(chosenIsHome)
+
+  span.chosenTeam.teamBox
+    img.chosenImage(src= "/images/" + pick.chosenTeam + "-small.png")
+    if underdog
+      span.doggie
+        img(src="/images/doggie.png")
+    if pick.game_over
+      if won
+        span.gameOverOverlay
+          img(src="/images/check.png")
+      else 
+        span.gameOverOverlay
+          img(src="/images/redX.png")
+
+  span.versusContainer
+    .line Line: #{line}
+
+  +homeSymbol(!chosenIsHome)
+  span.opponentTeam.teamBox
+    img.opponentImage(src= "/images/" + otherTeam + "-small.png")
+
+mixin homeSymbol(isHome)
+  if isHome
+    span.homeSymbol @
+  else 
+    span.homeSymbol
+
+mixin pickColumn(picks)
+  -var count = 0;
+  each pick in picks
+    -var id = "pick" + count;
+    div(id= id).pickRow
+      +showGame(pick)
+      -count = count + 1;
+
+block content
+  h1 #{year} Week #{week} Picks
+  .pickBox
+    .pickColumn.left
+      h2.player Isamu's Picks
+      h2.player Scored Points #{playerOneScore.points} 
+      h2.player Potential Remaining Points #{playerOneScore.potential} 
+      +pickColumn(playerOne)
+    .pickColumn.right
+      h2.player Dad's Picks
+      h2.player Scored Points #{playerTwoScore.points} 
+      h2.player Potential Remaining Points #{playerTwoScore.potential} 
+      +pickColumn(playerTwo)

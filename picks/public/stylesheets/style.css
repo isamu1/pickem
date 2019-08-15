@@ -1,0 +1,122 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.score, .homeSymbol {
+  display: inline-block;
+  width: 50px;
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+.chosenTeam {
+  width: 150px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+/* resize images */
+img.chosenImage {
+  height: auto;
+  width: 150px;
+}
+
+.doggie {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.gameOverOverlay {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.gameOverOverlay img {
+  width: 50px;
+}
+
+.line, .versus {
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+}
+
+.versusContainer {
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.opponentTeam {
+  width: 80px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* resize images */
+img.opponentImage {
+  height: auto;
+  width: 80px;
+}
+
+.pickRow {
+  height: 190px;
+  width: 500px;
+}
+
+/**
+  This is a hack to make vertical alignment work within the pickrow
+**/
+.pickRow:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.pickBox {
+  padding: 15px;
+  width: 1200px;
+  background-color: #4286f4;
+  border-style: solid;
+  overflow: auto;
+} 
+
+.pickColumn {
+  padding: 15px;
+  margin: 15px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #CCCCCC; 
+}
+
+.pickColumnSpacer {
+  margin: 0px;
+  padding: 0px;
+  width: 15px;
+  height: 100%;
+  background-color: #3ad174;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.red {
+  color: #CC2244;
+}
+
+.green {
+  color: #117711;
+}

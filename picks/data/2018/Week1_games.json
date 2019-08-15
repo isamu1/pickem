@@ -1,0 +1,162 @@
+[
+  {
+    "home": "Philadelphia",
+    "away": "Atlanta",
+    "line": 0.0,
+    "game_time": "9/6 8:20 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 1
+  },
+  {
+    "home": "Cleveland",
+    "away": "Pittsburgh",
+    "line": 4.0,
+    "game_time": "9/9 1:00 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 2
+  },
+  {
+    "home": "Minnesota",
+    "away": "SanFrancisco",
+    "line": -6.5,
+    "game_time": "9/9 1:00 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 3
+  },
+  {
+    "home": "Indianapolis",
+    "away": "Cincinnati",
+    "line": -3.0,
+    "game_time": "9/9 1:00 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 4
+  },
+  {
+    "home": "Baltimore",
+    "away": "Buffalo",
+    "line": -7.5,
+    "game_time": "9/9 1:00 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 5
+  },
+  {
+    "home": "NYGiants",
+    "away": "Jacksonville",
+    "line": 3.0,
+    "game_time": "9/9 1:00 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 6
+  },
+  {
+    "home": "NewOrleans",
+    "away": "TampaBay",
+    "line": -9.5,
+    "game_time": "9/9 1:00 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 7
+  },
+  {
+    "home": "NewEngland",
+    "away": "Houston",
+    "line": -6.5,
+    "game_time": "9/9 1:00 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 8
+  },
+  {
+    "home": "Miami",
+    "away": "Tennessee",
+    "line": 1.5,
+    "game_time": "9/9 1:00 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 9
+  },
+  {
+    "home": "LAChargers",
+    "away": "KansasCity",
+    "line": -3.5,
+    "game_time": "9/9 4:05 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 10
+  },
+  {
+    "home": "Denver",
+    "away": "Seattle",
+    "line": -3.0,
+    "game_time": "9/9 4:25 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 11
+  },
+  {
+    "home": "Carolina",
+    "away": "Dallas",
+    "line": -3.0,
+    "game_time": "9/9 4:25 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 12
+  },
+  {
+    "home": "Arizona",
+    "away": "Washington",
+    "line": -1.0,
+    "game_time": "9/9 4:25 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 13
+  },
+  {
+    "home": "GreenBay",
+    "away": "Chicago",
+    "line": -7.5,
+    "game_time": "9/9 8:20 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 14
+  },
+  {
+    "home": "Detroit",
+    "away": "NYJets",
+    "line": -6.5,
+    "game_time": "9/10 7:10 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 15
+  },
+  {
+    "home": "Oakland",
+    "away": "LARams",
+    "line": 4.0,
+    "game_time": "9/10 10:20 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 16
+  }
+]

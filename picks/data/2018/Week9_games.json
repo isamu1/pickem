@@ -1,0 +1,132 @@
+[
+  {
+    "home": "SanFrancisco",
+    "away": "Oakland",
+    "line": -3.0,
+    "game_time": "11/1 8:20 ET",
+    "game_over": true,
+    "home_score": 34,
+    "away_score": 3,
+    "id": 1
+  },
+  {
+    "home": "Minnesota",
+    "away": "Detroit",
+    "line": -5.0,
+    "game_time": "11/4 1:00 ET",
+    "game_over": true,
+    "home_score": 24,
+    "away_score": 9,
+    "id": 2
+  },
+  {
+    "home": "Cleveland",
+    "away": "KansasCity",
+    "line": 8.5,
+    "game_time": "11/4 1:00 ET",
+    "game_over": true,
+    "home_score": 21,
+    "away_score": 37,
+    "id": 3
+  },
+  {
+    "home": "Baltimore",
+    "away": "Pittsburgh",
+    "line": -3.0,
+    "game_time": "11/4 1:00 ET",
+    "game_over": true,
+    "home_score": 16,
+    "away_score": 23,
+    "id": 4
+  },
+  {
+    "home": "Carolina",
+    "away": "TampaBay",
+    "line": -6.5,
+    "game_time": "11/4 1:00 ET",
+    "game_over": true,
+    "home_score": 42,
+    "away_score": 28,
+    "id": 5
+  },
+  {
+    "home": "Miami",
+    "away": "NYJets",
+    "line": -3.0,
+    "game_time": "11/4 1:00 ET",
+    "game_over": true,
+    "home_score": 13,
+    "away_score": 6,
+    "id": 6
+  },
+  {
+    "home": "Washington",
+    "away": "Atlanta",
+    "line": -1.5,
+    "game_time": "11/4 1:00 ET",
+    "game_over": true,
+    "home_score": 14,
+    "away_score": 38,
+    "id": 7
+  },
+  {
+    "home": "Buffalo",
+    "away": "Chicago",
+    "line": 9.5,
+    "game_time": "11/4 1:00 ET",
+    "game_over": true,
+    "home_score": 9,
+    "away_score": 41,
+    "id": 8
+  },
+  {
+    "home": "Denver",
+    "away": "Houston",
+    "line": -1.0,
+    "game_time": "11/4 4:05 ET",
+    "game_over": true,
+    "home_score": 17,
+    "away_score": 19,
+    "id": 9
+  },
+  {
+    "home": "Seattle",
+    "away": "LAChargers",
+    "line": -1.5,
+    "game_time": "11/4 4:05 ET",
+    "game_over": true,
+    "home_score": 17,
+    "away_score": 25,
+    "id": 10
+  },
+  {
+    "home": "NewOrleans",
+    "away": "LARams",
+    "line": -1.5,
+    "game_time": "11/4 4:25 ET",
+    "game_over": true,
+    "home_score": 45,
+    "away_score": 35,
+    "id": 11
+  },
+  {
+    "home": "NewEngland",
+    "away": "GreenBay",
+    "line": -6.0,
+    "game_time": "11/4 8:20 ET",
+    "game_over": true,
+    "home_score": 31,
+    "away_score": 17,
+    "id": 12
+  },
+  {
+    "home": "Dallas",
+    "away": "Tennessee",
+    "line": -6.5,
+    "game_time": "11/5 8:15 ET",
+    "game_over": false,
+    "home_score": 0,
+    "away_score": 0,
+    "id": 13
+  }
+]
